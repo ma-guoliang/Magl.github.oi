@@ -1,0 +1,109 @@
+/* styles-cart.css */
+
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and center text in header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Style navigation links */
+nav ul {
+    list-style: none;
+    background-color: #333;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Style the main content area */
+main {
+    padding: 1rem;
+}
+
+/* Style the cart container */
+#cart-items {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+}
+
+/* Style individual cart items */
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff; /* 添加背景颜色 */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); /* 添加阴影 */
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); /* 添加过渡效果 */
+}
+
+.cart-item img {
+    max-width: 80px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* Style the checkout and clear cart buttons */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px; /* 添加圆角 */
+    transition: background-color 0.3s ease; /* 添加过渡效果 */
+}
+
+button:hover {
+    background-color: #0056b3; /* 按钮悬停时的背景颜色 */
+}
+
+/* Style the error message */
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+/* Style the cart title and total */
+h2 {
+    color: #333;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cart-total {
+    font-size: 24px;
+    color: #007bff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 0.5rem;
+}

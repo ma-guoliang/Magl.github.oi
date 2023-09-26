@@ -1,0 +1,33 @@
+<!-- cart.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles-cart.css">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <header>
+        <h1>Shopping Cart</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">主页</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>购物车</h2>
+        <div id="cart-items">
+            <!-- Cart items will be displayed here -->
+        </div>
+        <p>总计: ¥<span id="cart-total">0</span></p>
+        <button onclick="checkout()">收款</button>
+        <button onclick="clearCart()">清空</button>
+        <p id="cart-empty-message" class="error"></p>
+    </main>
+    <footer>
+        &copy; 2023 Online Bookstore
+    </footer>   
+</body>
+</html>

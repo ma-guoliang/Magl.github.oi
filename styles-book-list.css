@@ -1,0 +1,63 @@
+/* styles.css */
+/* Basic CSS styles for the Book List page */
+
+/* Apply a background color and center text in header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Style navigation links */
+nav ul {
+    list-style: none;
+    background-color: #333;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Style the main content area */
+main {
+    padding: 1rem;
+}
+
+/* Style book items */
+.book {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.book img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the "Add to Cart" button */
+.book button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 0.5rem;
+}

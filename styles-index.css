@@ -1,0 +1,87 @@
+/* styles-index.css */
+/* CSS styles for the Online Bookstore homepage */
+
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Use a web-safe font */
+}
+
+/* Apply a background color and center text in header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Style navigation links */
+nav ul {
+    list-style: none;
+    background-color: #333;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Style the main content area */
+main {
+    padding: 1rem;
+}
+
+/* Style featured books section */
+.featured-books {
+    display: flex; /* Use flex layout */
+    flex-wrap: wrap; /* Wrap items to the next line for smaller screens */
+    justify-content: space-between; /* Arrange items horizontally with even spacing */
+}
+
+/* Style individual book items within featured books section */
+.book {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    width: calc(25% - 2rem); /* Display 4 books per row, calculate width and subtract margin */
+    box-sizing: border-box; /* Include border and padding in the element's width */
+}
+
+.book img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Remove image spacing */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+/* Style the "Add to Cart" button */
+.book button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add a smooth transition effect */
+}
+
+.book button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 0.5rem;
+}
